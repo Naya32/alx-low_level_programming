@@ -13,6 +13,8 @@
 
 int main(int argc, char *argv[])
 {
+	(void)argc; /* not in use */
+	
 	printf("The name of command-line argument : %s\n", argv[0]);
 
 	return (0);

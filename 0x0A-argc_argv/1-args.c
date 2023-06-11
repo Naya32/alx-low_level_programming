@@ -12,16 +12,8 @@
 
 int main(int argc, char *argv[])
 {
-	int mount = argc - 1;
-	int argInt;
 
-	if (argc > 1)
-	{
-		argInt = atoi(argv[1]);
-		printf("argument as an integer :  %d\n", argInt)
-	}
-
-	printf("number of argument :  %d\n", mount);
+printf("number of argument :  %d\n", argc - 1);
 
 	return (0);
 }

@@ -12,6 +12,7 @@
 
 int main(int argc, char *argv[])
 {
+ void(argv) /* not in use */
 
 printf("%d\n", argc - 1);
 

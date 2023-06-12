@@ -12,13 +12,11 @@
 
 int main(int argc, char *argv[])
 {
-	int a;
 
-printf("Number of argument : %d\n", argc);
-
-for (a = 0; a < argc; a++)
+for (int index = 0; index < argc; index++)
+{
 	printf("argumets %d: %s\n", a, argv[a]);
-
+}
 	return (0);
 
 }

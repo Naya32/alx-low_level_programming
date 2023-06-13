@@ -1,5 +1,5 @@
-#include <stdio.h>
-
+#include <stdio.h
+#include "main.h"
 /**
  * main - program entry point.
  *
@@ -12,7 +12,7 @@
 
 int main(int argc, char *argv[])
 {
-
+int index;
 for (int index = 0; index < argc; index++)
 {
 	printf("%s\n", argv[index]);

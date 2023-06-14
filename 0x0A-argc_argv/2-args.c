@@ -13,7 +13,8 @@
 int main(int argc, char *argv[])
 {
 int index = 0;
-if ( index < argc )
+
+while ( argv[index] != NULL )
 {
 	printf("%s\n", argv[index]);
 	index++;

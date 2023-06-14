@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
 
 if (argc != 3)
 {
-	printf("%s\n",argv[0]);
+	printf("%s <index1> <index2> ... \n",argv[0]);
 	return (1);
 }
 

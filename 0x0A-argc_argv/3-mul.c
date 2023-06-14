@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
  *main - program entry point.
  *
@@ -12,9 +12,8 @@
 
 int main(int argc, char *argv[])
 {
+	int result =  1;
 	int a;
-	int b;
-int result;
 
 if (argc != 3)
 {
@@ -22,9 +21,18 @@ if (argc != 3)
 	return (1);
 }
 
-a = _atoi(argv[1]);
-b = _atoi(argv[2]);
-result = a *b;
+for (a = 1; a < argc; a++)
+{
+	int index = atoi(argv[a]);
+
+	if (index == 0)
+	{
+		printf("%s\n", argv[a]);
+		return (1);
+	}
+
+	result *= index;
+}
 
 printf("%d\n", result);
 

@@ -12,10 +12,11 @@
 
 int main(int argc, char *argv[])
 {
-int index;
-for (int index = 0; index < argc; index++)
+int index = 0;
+if ( index < argc )
 {
 	printf("%s\n", argv[index]);
+	index++;
 }
 	return (0);
 

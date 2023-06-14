@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include "main.h"
 
 /**
  * countmoney - calculate the minimum number of coins .

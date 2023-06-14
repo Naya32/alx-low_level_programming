@@ -12,12 +12,14 @@
 
 int main(int argc, char *argv[])
 {
-int index = 0;
+int index;
 
-while ( argv[index] != NULL )
+// print each argument 
+
+for (index = 0; index < argc; index++ )
 {
 	printf("%s\n", argv[index]);
-	index++;
+	
 }
 	return (0);
 

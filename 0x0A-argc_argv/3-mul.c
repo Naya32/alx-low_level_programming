@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "main.h"
 /**
  *main - program entry point.
  *
@@ -18,7 +17,7 @@ int main(int argc, char *argv[])
 
 if (argc != 3)
 {
-	printf("error\n");
+	printf("%s\n",argv[0]);
 	return (1);
 }
 

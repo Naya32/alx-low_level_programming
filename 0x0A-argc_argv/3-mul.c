@@ -15,9 +15,9 @@ int main(int argc, char *argv[])
 	int result =  1;
 	int a;
 
-if (argc != 3)
+if (argc < 3)
 {
-	printf("%s <index1> <index2> ... \n",argv[0]);
+	printf("%s <index1> <index2> ... \n", argv[0]);
 	return (1);
 }
 

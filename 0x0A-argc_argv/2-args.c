@@ -12,9 +12,7 @@
 
 int main(int argc, char *argv[])
 {
-int index;
-
-// print each argument 
+int index; 
 
 for (index = 0; index < argc; index++ )
 {

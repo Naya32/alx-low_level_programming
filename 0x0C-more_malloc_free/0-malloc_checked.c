@@ -22,3 +22,18 @@ void *malloc_checked(unsigned int b)
 
 	return (ptr);
 }
+
+/**
+ * main - program entry point.
+ *
+ * Return: 0 on success.
+ */
+
+int main(void)
+{
+	unsigned int size = 10;
+	int *arr = malloc_checked(size * sizeof(int));
+
+	free(arr);
+	return (0);
+}

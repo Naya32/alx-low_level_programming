@@ -1,7 +1,6 @@
 #include <stdio.h>
-
 /**
- * main - program entry point.
+ * main - prints file name.
  *
  * Return: 0 on success.
  */

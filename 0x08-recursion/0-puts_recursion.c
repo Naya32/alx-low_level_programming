@@ -1,29 +1,18 @@
 #include <unistd.h>
 
 /**
- * _putchar - writes a character to the standard output (stdout)
- * @c: The character to print
- *
- * Return: On success, the number of characters written.
- * On error, -1 is returned.
+ * _puts - Prints a string followed by a new line to stdout.
+ * @str: The string to print.
  */
-int _putchar(char c)
+void _puts(const char *str)
 {
-return (write(1, &c, 1));
-}
+int i = 0;
 
-/**
- * _puts - prints a string, followed by a new line, to stdout
- * @str: The string to print
- */
-void _puts(char *str)
+while (str[i])
 {
-if (*str != '\0')
-{
-_putchar(*str);
-_puts(str + 1);
+write(1, &str[i], 1);
+i++;
 }
-{
-	_putchar('\n');
-}
+/* Print a newline character to create a new line */
+write(1, "\n", 1);
 }

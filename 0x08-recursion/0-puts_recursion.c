@@ -1,18 +1,14 @@
-#include <unistd.h>
+#include <stdio.h>
 
 /**
- * _puts - Prints a string followed by a new line to stdout.
- * @str: The string to print.
+ *string_new_line - Prints a string followed by a new line
+ * @str: The input string to be printed
  */
-void _puts(const char *str)
+void string_new_line(char *str)
 {
-int i = 0;
+	if (str != NULL)
+	{
+		printf("%s\n", str);
+	}
+}
 
-while (str[i])
-{
-write(1, &str[i], 1);
-i++;
-}
-/* Print a newline character to create a new line */
-write(1, "\n", 1);
-}

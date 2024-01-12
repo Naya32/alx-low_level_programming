@@ -5,13 +5,17 @@
  */
 int _strlen_recursion(char *s)
 {
-	int length = 0;
+int length = 0;
 
-	while (*s != '\0')
-	{
-		length++;
-		s++;
-	}
-
-	return (length);
+if (*s == '\0')
+{
+return (length);
 }
+else
+{
+length++;
+s++;
+return (length);
+}
+}
+

@@ -1,9 +1,9 @@
 /**
- * _strlen - Returns the length of a string
+ * _strlen_recursion - Returns the length of a string
  * @s: The input string
  * Return: The length of the string
  */
-int _strlen(char *s)
+int _strlen_recursion(char *s)
 {
 	int length = 0;
 
@@ -13,5 +13,5 @@ int _strlen(char *s)
 		s++;
 	}
 
-	return length;
+	return (length);
 }

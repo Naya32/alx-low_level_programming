@@ -1,4 +1,8 @@
-// file created by ezike ifunanya
+/*
+ *  file created by ezike ifunanya
+ *  
+ *  C file to print letters of the alphabet
+ */
 
 #include<stdio.h>
 
@@ -10,4 +14,5 @@ int main()
 		putchar(a);
 	}
 	putchar('\n');
+	return 0
 }

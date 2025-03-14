@@ -1,7 +1,7 @@
 /*
  *  file created by ezike ifunanya
  *
- *  main: to print letters of the alphabet
+ * int main: to print letters of the alphabet
  */
 
 #include<stdio.h>

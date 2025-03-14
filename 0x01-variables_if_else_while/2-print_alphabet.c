@@ -1,18 +1,19 @@
 /*
  *  file created by ezike ifunanya
- *  
- *  C file to print letters of the alphabet
+ *
+ *  main function - to print letters of the alphabet
  */
 
 #include<stdio.h>
 
-int main()
+int main(void)
 {
 	char a;
-	for ( a = 'a'; a <= 'z'; a++)
+
+	for (a = 'a'; a <= 'z'; a++)
 	{
 		putchar(a);
 	}
 	putchar('\n');
-	return 0;
+	return(0);
 }

@@ -1,24 +1,25 @@
-#include "main.h"
-/**
- * print_alphabet_x10 - print 10 times the alphabet, in lowercase
- * followed by a new line
+/*
+ *Program by Ezike ifunanya.
+* Program to prints the lowecase letters of the alphabet(a-z)
+ * on 10 separate lines.
+ *
+ * Returns: 0 on success.
+ *
  */
-void print_alphabet_x10(void)
+
+
+int main(void)
 {
-	char ch;
-	int i;
+	int a;
+	char b;
 
-	i = 10;
-
-	while (i < 10)
+	for(a=1; a<=10; a++)
 	{
-		ch = 'a';
-		while (ch <= 'z')
+		for(b='a'; b<='z'; b++)
 		{
-			_putchar(ch);
-			ch++;
+			putchar(b);
 		}
-		_putchar('\n');
-		i++;
+		putchar('\n');
 	}
+	return(0);
 }

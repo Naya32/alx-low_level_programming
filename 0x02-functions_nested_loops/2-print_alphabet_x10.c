@@ -1,7 +1,7 @@
 /*
  *Program by Ezike ifunanya.
-* Program to prints the lowecase letters of the alphabet(a-z)
- * on 10 separate lines.
+* Program to prints the lowecase letters of the alphabet(a-z) on 10 separate lines.
+ * 
  *
  * Returns: 0 on success.
  *

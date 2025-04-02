@@ -7,8 +7,9 @@
  *
  */
 
+#include"main.h"
 
-int main(void)
+void print_alphabet_x10(void)
 {
 	int a;
 	char b;
@@ -21,5 +22,11 @@ int main(void)
 		}
 		putchar('\n');
 	}
-	return(0);
+}
+
+int main(void)
+{
+	print_alphabet_x10();
+
+	return (0);
 }
